@@ -1,0 +1,32 @@
+# Entorno virtual de Python
+venv/
+ENV/
+env/
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Base de datos local SQLite
+*.db
+*.sqlite3
+
+# Variables de entorno y secretos
+.env
+.env.local
+
+# Archivos de configuración del editor (opcional)
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Registros/Logs
+*.log
+
+# No se suben imagenes del dataset
+checador/dataset/*
