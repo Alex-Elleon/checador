@@ -30,3 +30,6 @@ Thumbs.db
 
 # No se suben imagenes del dataset
 checador/dataset/*
+
+# Agregamos node_modules para ignorar dependencias
+node_modules/
