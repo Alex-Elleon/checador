@@ -28,8 +28,8 @@ Thumbs.db
 # Registros/Logs
 *.log
 
-# No se suben imagenes del dataset
-checador/dataset/*
-
 # Agregamos node_modules para ignorar dependencias
 node_modules/
+
+# Agregamos uploads para ignorar archivos subidos
+uploads/ 

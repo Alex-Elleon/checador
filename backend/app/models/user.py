@@ -14,7 +14,7 @@ class User(Base):
     occupation = Column(String, nullable=True) # Área/Puesto (ej. RH, Admin)
     rest_day = Column(String, nullable=True)
     active = Column(Boolean, default=True)
-    face_img_path = Column(String, nullable=True) # Ruta local de la foto del rostro
+    face_img_path = Column(String, nullable=True) # <-- CORREGIDO: envuelto en Column()
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 

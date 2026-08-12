@@ -11,7 +11,7 @@ class UserBase(BaseModel):
     schedule_id: Optional[int] = None
 
 class UserCreate(UserBase):
-    pass
+    face_image: str
 
 class UserResponse(UserBase):
     id: int
